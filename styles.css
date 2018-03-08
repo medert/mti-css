@@ -1,0 +1,445 @@
+.main-font, h1, h2, h3, h4, h5, .section-title, .products-list .product-name, .products-grid .product-name, h3.product-name, .feature .heading, .accordion .heading, .nav-regular li.level0 > a, .nav-regular .nav-submenu--mega > li > a, .mobnav-trigger, .nav-mobile li.level0 > a, .nav-mobile li.level1 > a, .nav-mobile li.level2 > a, .block .block-title, #opc-login h3, .box-account .box-head h2, .order-items h2.table-caption, .order-items h2.sub-title, .order-items .order-comments h2, .product-view .box-reviews dt .heading, .gen-tabs .tabs a, .footer .heading, #subscribe-form label, .caption .heading {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Inventory {
+margin-top: 10px; /* Inventory structure on B2B product pages */
+width:100%;
+  max-width: 100px;
+empty-cells: hide;
+  border-collapse: collapse;
+  font-family: arial, helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.3;
+}
+.tagline {
+ display: block; /* In MSRP tab, full sentences about product */
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+line-height: 1.3;
+}
+.msrp {
+ display: block; /* MSRP price of product in B2B product pages */
+  color: rgb(41,143,205);
+  font-size: 1.6666em;
+  font-family: Verdana, Geneva, sans-serif;
+padding-top: 10px;
+}
+
+.featuretab {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+line-height: 1.2;
+}
+.featurebold {
+  display: block;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagesizechart {
+  display: block;
+    font-size: 14px;
+  padding-bottom: 3px;
+    padding-top: 3px;
+}
+.videoWrapper {
+	position: relative; /* Product videos in Videos tab */
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.buttonlocal { /* "Buy Local" button on B2C product pages */
+  display: block;
+  border-radius: 4px;
+  background-color: #298FCD;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.buttonlocal span {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonlocal span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonlocal:hover span {
+  padding-right: 15px;
+}
+
+.buttonlocal:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#local {
+    color: #ffffff !important;}
+#local:hover {
+color: #ffffff !important;}
+
+.box1 {
+    display: block;
+  border-radius: 4px;
+  background-color: #298FCD;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+ width: auto;
+  margin: 0px;
+}
+
+.online1 {
+margin: 0 auto;
+  font-size: 18px;
+width: 160px;
+  color: #fff;
+  background: #298fcd;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.online1:hover {
+color: #333333
+}
+
+.overlay1 {
+  position: fixed; /* Popup for "Buy Online" button */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+z-index: 2001;
+}
+.overlay1:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.poponline {
+  margin: 70px auto; /* Popup for "Buy Online" button */
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.poponline h3 {
+  margin-top: 0; /* Popup for "Buy Online" button */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.poponline .close {
+  position: absolute; /* Popup for "Buy Online" button */
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.poponline .close:hover {
+  color: #298FCD; /* Popup for "Buy Online" button */
+}
+.poponline .content {
+  max-height: 30%; /* Popup for "Buy Online" button */
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%; /* re-aligns tables when the screen size is adjusted */
+  }
+  .poponline{
+    width: 70%;
+  }
+}
+
+.tftable
+{font-size:16px;color:#333333;width:100%;max-width:600px;border-width: 1px;border-color: #a9a9a9;border-collapse: collapse;}
+.tftable th
+ {font-size:16px;background-color:#C4C9CE;border-width: 1px;padding: 4px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+.tftable tr
+{background-color:#ffffff;}
+.tftable td
+{font-size:16px;border-width: 1px;padding: 4px;border-style: solid;border-color: #a9a9a9;}
+.tftable tr:hover
+{background-color:#298fcd;}
+
+.feat  {
+border-collapse:collapse; /* Table for product features in Features tab */
+border-spacing:0;
+width:267px;
+position: relative;
+}
+.feat td{font-family:Arial, sans-serif;font-size:14px;padding:5px 5px;border-style:solid;border-width:2px;border-color:#ffffff;overflow:hidden;word-break:normal;}
+.feat th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:5px 0px;border-style:none;border-width:0px;overflow:hidden;word-break:normal;vertical-align: text-bottom;}
+.feat .feat-alpha{text-align:center;background: #F8F8F8}
+.feat .feat-beta{text-align:center;vertical-align:middle;font-size:20px;padding:5px;line-height:1.2em}
+.feat .feat-delta{text-align:center;background:#ffffff}
+.feat .feat-size{text-align:center;background:#C4C9CE;line-height: 2em;vertical-align:middle}
+.feat .feat-measure{text-align:center;vertical-align:middle;font-size:20px}
+
+.type {
+border-collapse:collapse; /* Table for USCG Type in product page */
+width:267px;
+border-top: 2px solid #C4C9CE;
+}
+.type td{font-family:Arial, sans-serif;font-size:14px;cell-padding:5px 5px 5px 5px;overflow:hidden;word-break:normal;}
+.type .type-type{text-align:center;vertical-align:middle;font-size:40px;padding:0px;}
+.type .type-type2{text-align:center;vertical-align:middle;font-size:20px;padding-top:10px;}
+.type .type-type3{text-align:center;vertical-align:middle;font-size:20px;padding-top:0px;}
+
+.mb10 {
+margin-bottom: 10px; /* Adds margins where necessary */
+}
+.tg  {
+border-collapse:collapse; /* Size Chart tables */
+border-spacing:0;
+width: 100%
+}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top;}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-space {vertical-align:top;width:10%;font-weight:bold;}
+
+/* Tooltip container for Think Safe Booklet*/
+.tooltip {
+
+line-height: 1em;
+    display: inline-block;
+overflow:visible;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 110px;
+    background-color: #298FCD;
+    color: #FFFFFF;
+    text-align: center;
+  font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    position: absolute;
+top: 60%
+    margin-left: -36px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible  !important;
+
+}
+
+.contactmenu {
+font-size: 1em;
+font-family: Arial;
+font-color: #888;
+cell-padding: 5px
+}
+
+.sizechart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sizechart span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sizechart:hover span {
+  padding-right: 15px;
+}
+
+.sizechart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.tech-table {
+  font-family: Arial; /* Tech Specs tab tables*/
+  width: 100%;
+font-size: 1.4em;
+line-height: 1.2;
+    }
+
+@media screen and (max-width: 767px) {
+.tech-table tr td {
+  padding: 10px; /* to resize Tech Specs tab tables with screen */
+  border: none;
+  display: block;
+  width: 100%;
+}}
+
+.details {
+  width: 35%; /* Tech Specs tab tables*/
+}
+.features {
+  width: 40%; /* Tech Specs tab tables*/
+}
+
+.tech-table tr td {
+  vertical-align: top; /* Tech Specs tab tables*/
+}
+
+/* Tooltip container for product features that are hoverable images */
+.tooltipz {
+
+line-height: 1em;
+    display: inline-block;
+color: #298FCD;
+overflow:visible;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltipz .tooltiptextz {
+    visibility: hidden;
+    width: 300px;
+    background-color: #C4C9CE;
+    color: #FFFFFF;
+    text-align: center;
+  font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+       /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltipz:hover .tooltiptextz {
+    visibility: visible  !important;
+
+}
+
+.thinksafe {
+	background-color:#ffea00; /* Think Safe booklet button */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#47476B;
+padding: 10px 20px 10px 20px;
+	font-family:Arial;
+  font-weight:bold;
+	font-size:20px;
+vertical-align: middle; !important
+
+	text-decoration:none;
+}
+.thinksafe:hover {
+	background-color:#ffea00;
+
+}
+.thinksafe:active {
+	position:relative;
+	top:1px;
+}
+
+/* Tooltip container for Think Safe Booklets */
+.tooltipthink {
+
+line-height: 1em;
+    display: inline-block;
+overflow:visible;
+
+}
+
+/* Tooltip text */
+.tooltipthink .tooltiptextthink {
+    visibility: hidden;
+    width: 150px;
+    background-color: #298FCD;
+    color: #FFFFFF;
+    text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 0px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltipthink:hover .tooltiptextthink {
+    visibility: visible  !important;
+
+}
+
+.caseqty {
+  padding: 0.2em 0.7em; /* Case Qty table on B2B product pages in Tech Specs */
+  background: #298FCD;
+  text-align: center;
+  font-family: Arial;
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: bold;
+  }
+
+hr .faq {border: 0; /* Lines for Tech Specs tab tables */
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+padding-bottom: 5px;
+}
+
+.quest {font-style: italic; /* Questions on the FAQ page */
+font-weight: bold}
+
+.care {vertical-align: middle; /* Styles for Product Care page */
+margin: 10px;
+border: 1px solid #e2e2e2;
+}
+.care tr td {vertical-align: middle; padding: 10px}
+
+.faqsearch {font-family: Arial, helvetica, sans-serif; /* Sidebar on FAQ, Product Care and other pages */
+font-size: 16px;
+margin-left: 20px;
+margin-top: 20px}
